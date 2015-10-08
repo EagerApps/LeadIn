@@ -1,7 +1,8 @@
 (function(){
-  var init, options;
+  var options, isPreview, init;
 
   options = INSTALL_OPTIONS;
+  isPreview = window.Eager && window.Eager.installs && window.Eager.installs.preview && window.Eager.installs.preview.appId === 'B-yKwrgZisAl';
 
   init = function() {
     var script = document.createElement('script');
@@ -15,4 +16,8 @@
   };
 
   init();
+
+  if (isPreview) {
+    // TODO - Run Leadin demo for the Eager preview
+  }
 })();
