@@ -10,7 +10,7 @@
     script.async = true;
     script.defer = true;
     script.setAttribute('crossorigin', 'use-credentials');
-    script.src = '//js.leadin.com/js/v1/' + optins.id + '.js';
+    script.src = '//js.leadin.com/js/v1/' + options.id + '.js';
     document.body.appendChild(script);
   };
 
