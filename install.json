@@ -1,0 +1,18 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./eager-leadin.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "id": {
+        "title": "Leadin ID",
+        "type": "string"
+      }
+    }
+  }
+}
